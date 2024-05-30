@@ -1,7 +1,7 @@
 let NFTItem = []
 
 function mintNFT(Name,Price,MFG_Date,Quantity){
-    let NFT = {
+    const NFT = {
         Name : Name,
         Price : Price,
         MFG_Date : MFG_Date,
